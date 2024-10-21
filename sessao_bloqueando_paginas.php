@@ -11,6 +11,8 @@
 </head>
 <body>
 
+	//Método "post" é apenas para formulários
+
 	<form name="logar" method="post" action="sessoes_bloqueando.php">
 
 		Nome: <br>

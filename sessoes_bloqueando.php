@@ -25,8 +25,10 @@
 <body>
 
 	<b>Funcionário: </b> <?php echo $_SESSION['nome'] ?>, logado com sucesso.<br>
-	<b>Data de conexão: </b> <?php echo date("d/m/y") ?><br>
-	<b>Hora de conexão: </b> <?php echo date("H:i:s") ?><br>
+	<b>Data de conexão: </b> <?php echo date("d/m/y"); ?><br>
+	<b>Hora de conexão: </b> <?php echo date("H:i:s"); ?><br>
+
+	<b>ID da sessão: </b> <?php echo session_id(); ?><br>
 
 	<a href="sessoes_verifica_sessao.php">Área de administrador</a>
 
